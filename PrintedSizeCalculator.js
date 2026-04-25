@@ -1,6 +1,14 @@
+// ****************************************************************************
+// PrintedSizeCalculator.js
+// PixInsight Script
+// ****************************************************************************
+
+#feature-id    Utilities > PrintedSizeCalculator
+#feature-info  Calculates the printed size of an image at a given DPI.
+
 (function() {
 
-   // --- Input Dialog ---
+    // --- Input Dialog ---
    var dialog = new Dialog();
    dialog.windowTitle = "Printed Size Calculator";
 

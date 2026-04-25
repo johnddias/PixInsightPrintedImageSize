@@ -1,4 +1,4 @@
-# PixInsight Printed Image Size
+# PixInsight Printed Image Size Calculator
 
 A PixInsight script that calculates the physical printed dimensions of an open image at a specified DPI.
 
@@ -9,7 +9,7 @@ Given an open image window and a target print resolution (DPI), the script compu
 ## Usage
 
 1. Open one or more images in PixInsight.
-2. Run the script via **Script > Execute Script File** and select `ImagePrintedSize`.
+2. Run the script via **Script > Execute Script File** and select `PrintedSizeCalculator.js`.
 3. In the dialog, choose the image window and set your target DPI (default: 300).
 4. Click **Calculate** to see the printed dimensions.
 
@@ -29,7 +29,7 @@ Printed Size:
 
 ## Installation
 
-Copy `ImagePrintedSize` to your PixInsight scripts directory:
+Copy `PrintedSizeCalculator.js` to your PixInsight scripts directory:
 
 - **Windows:** `C:\Program Files\PixInsight\src\scripts\`
 - **macOS/Linux:** `/Applications/PixInsight/src/scripts/` (or equivalent)
